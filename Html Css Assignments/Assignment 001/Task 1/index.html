@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-signin-scope" content="profile email">
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Login</title>
+    <link rel="stylesheet" href="main.css">
+
+
+
+</head>
+
+<body>
+    <section>
+
+        <form action="#">
+            <h1>Login Page</h1>
+            <br>
+            <br>
+            <label for="username">Username:
+                <br>
+            <input type="text" placeholder="Username" name="username" required>
+        </label>
+            <br>
+            <label for="emailid">Email:
+                <br>
+                <input type="email" placeholder="Email id" name="emailid" required>
+            </label>
+            <br>
+            <label for="password">Password
+                <br>
+                <input type="psw" placeholder="Pasword" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+            </label>
+
+            <br>
+            <input type="submit" value="Login">
+            <input type="submit" value="Sign-up">
+
+        </form>
+    </section>
+</body>
+
+
+
+</html>
