@@ -9,68 +9,81 @@
     <link rel="stylesheet" href="signup.css">
 
 
-
 </head>
 
 <body>
     <section>
 
         <form action="#">
-            <h1>Login Page</h1>
+            <h1>Signup Page</h1>
             <br>
             <br>
             <label for="name">Name:
-                <br>
+                
             <input type="text" placeholder="name" name="name" required>
+            <br>
         </label>
             <label for="Address">Address:
-            <br>
+            
         <input type="textbox" placeholder="Address" name="Address" >
     </label>
 
             <br>
             <label for="emailid">Email:
-                <br>
+                
                 <input type="email" placeholder="Email id" name="emailid" required>
             </label>
             <br>
             <label for="password">Password
-                <br>
+                
                 <input type="password" placeholder="Pasword" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
             </label>
             <label for="c_password">Confirm Password
-                <br>
+                
                 <input type="password" placeholder="Pasword" name="c_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
             </label>
-            <label for="gender">Gender
-                <br>
-                <input type="radio" name="gender" >Male <br>
-                <input type="radio" name="gender" >Female <br>
-                <input type="radio" name="gender" >Other <br>
-                
-            </label>
+            <label for="gender" class="radio">Gender
 
+            <input type="radio" name="gender" value="Male" checked>Male
+            <input type="radio" name="gender" value="Female">Female
+            
+
+        </label>
+            <br>
             <label for="dob">Date of birth
                 <input type="date" name ="dob">
                 <br>
             </label>
             <label for="mob_no">Phone Number
                 <input type="number" name="mob_number" >
-            </label>
-
-            <label for="lang">Language
                 <br>
-                <input type="radio" name="lang" >Python  <br>
-                <input type="radio" name="lang" >Java<br>
-                <input type="radio" name="lang" >Other <br>
-                
             </label>
 
+            <label for="lang" class="radio">Language
+                <input type="radio" name="lang" value="English">English
+            <input type="radio" name="lang" value="Hindi">Hindi
+            
+                <br>  
+            </label>
 
+            <label for="country">Country
+                <select name="country">
+                    <option value="England">England</option>
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                  </select>
+                  <br>
+            </label>
 
+            <label for="img">Upload Image 
+                <input type="file" name= "img">
+            </label>
             <br>
-            <input type="submit" value="Login">
-            <input type="submit" value="Sign-up">
+            <div class="btn">
+                <input class="btn-s" type="submit" value="Submit">
+                <input class="btn-r" type="reset" value="Reset">
+            </div>
+
 
         </form>
     </section>
