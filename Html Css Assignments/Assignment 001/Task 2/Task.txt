@@ -1,0 +1,13 @@
+Task 2 :
+ SignUp PageRequirements :
+  Name field
+  Address field
+  Email field
+  Password field
+  Confirm Password field
+  Gender field
+  D.O.B. field
+  Mobile No. field
+  Language Known field using checkbox
+  Country field using dropdown
+  Profile Image
