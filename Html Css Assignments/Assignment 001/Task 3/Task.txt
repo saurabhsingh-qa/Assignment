@@ -1,0 +1,7 @@
+Header Section with logout and 
+profile image
+Cards
+Footer 
+Section   
+OR
+SPA
