@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100vh;
+    background-color: #0d1217;
+    width: 2rem;
+    color: rgb(102,102,102);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:0;
+
+}
+
+content{
+    height: auto;
+    display:flex;
+    align-items: stretch;
+
+}
+.nav{
+    height: 100%;
+    width: 2rem;
+    background-color: #0d1217;
+    flex-basis: 2rem;
+    color: rgb(102,102,102);
+
+
+}
+
+li{
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+i:hover{
+    cursor: pointer;
+    color:rgb(25, 181, 254);
+}
+
+
+
+
+.main_page{
+    width: 100%;
+    background-image: url("https://lh4.googleusercontent.com/XXV2xof1OIQeFTkEGJcumD8dMM02EuMnGlKRDNklLlqiTXkP2UxwDZMLsN7dwuR12wED2PqQDBjMxqw5vOJM=w1366-h657-rw");
+    background-color: #5b5b5b;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-origin: border-box;*/
+    background-attachment: fixed;
+
+}
+.content{
+    background-color:transparent;
+}
+.banner_detail{
+    height:70vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.banner_detail>div>h1{
+    font-size:3.5rem;
+    font-weight:700;
+}
+
+.banner_detail>div>h3{
+    font-size:2rem;
+    font-weight:500;
+}
+.banner_detail>div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_detail>div>button{
+    font-size:1.5rem;
+    font-weight:300;
+    color:white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    padding: 1rem;
+    cursor: pointer;
+}
+.content_section{
+    height: 100rem;
+    background-color: blue;
+}
